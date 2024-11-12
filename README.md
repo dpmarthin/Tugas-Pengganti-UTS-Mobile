@@ -1,16 +1,24 @@
-# uts_1202210285
+# Identitas
 
-A new Flutter project.
+- **Nama**  : Marthin Putra Dwimadyo
+- **Kelas** : SI4507
+- **NIM**   : 1202210285
 
-## Getting Started
+# Pengenalan Aplikasi
 
-This project is a starting point for a Flutter application.
+Aplikasi ini adalah proyek sederhana menggunakan Flutter yang mengambil data resep makanan dari REST API dan menampilkannya dalam daftar yang bisa dicari, serta filter berdasarkan waktu masak dari tercepat maupun terlama untuk kebutuhan UTS Mata Kuliah Mobile Application Development
 
-A few resources to get you started if this is your first Flutter project:
+## Fitur Utama 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Daftar Resep**    - Menampilkan daftar resep makanan populer.
+2. **Pencarian Resep** - Menampilkan hasil pencarian resep makanan populer berdasarkan nama.
+3. **Filter Resep**    - Menampilkan urutan waktu masak resep makanan dari tercepat maupun terlama.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Struktur Proyek 
+
+1. **recipe_search.api.dart**  : Mengelola data API feeds/search
+2. **recipe.api.dart**         : Mengelola data API feeds/list
+3. **recipe.dart**             : Model dari data API feeds/list
+4. **recipe_card.dart**        : Mengelola dan menampilkan card dari data API feeds/list
+5. **home.dart**               : Mengelola dan menampilkan tampilan aplikasi utama 
+6. **main.dart**               : Menjalankan tampilan aplikasi utama
